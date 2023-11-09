@@ -8,6 +8,11 @@ import (
 	"fmt"
 
 	"github.com/spf13/cobra"
+	telebot "gopkg.in/telebot.v3"
+)
+
+var (
+	TeleToken = os.Getenv("TELE_TOKEN")
 )
 
 // customModuleCmd represents the customModule command
